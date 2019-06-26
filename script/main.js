@@ -1,5 +1,5 @@
 $(function() {
-  $.backstretch("/img/bg.jpg", {
+  $.backstretch("./img/bg.jpg", {
     // centeredX: false,
     // centeredY: false,
     // duration: "normal"
