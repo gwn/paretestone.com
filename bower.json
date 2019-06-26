@@ -1,0 +1,8 @@
+{
+    "name": "paretestone",
+    "dependencies": {
+        "normalize.css"     : "3.0.1",
+        "jquery"            : "2.1.0",
+        "jquery-backstretch": "2.0.4"
+    }
+}

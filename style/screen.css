@@ -1,0 +1,31 @@
+/* generic */
+body {
+  color: #fff;
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: sans-serif;
+}
+.trans-bg {
+  position: relative;
+  box-sizing: border-box;
+}
+.trans-bg > .bg-helper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.7;
+  z-index: -1;
+} 
+
+/* layout */
+#container {
+  width: 600px;
+  margin: auto;
+  padding: 40px;
+  text-align: center;
+}
+#container .bg-helper {
+  border-radius: 0 0 10px 10px;
+}
